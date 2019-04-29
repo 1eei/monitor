@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .top,
+.container .bottom {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+}
+
+.container .top {
+    margin-bottom: 20px;
+}
+
+.container #TempBar {
+    height: 400px;
+    flex: 1;
+}
+
+.container #HunBar {
+    height: 400px;
+    flex: 1;
+}
